@@ -1,0 +1,99 @@
+@media screen and (max-width: 768px) {
+    #container {
+        justify-content: flex-start;
+    }
+
+    #container .hero-logo {
+        margin-top: 20px;
+    }
+
+    .content-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .content-right {
+        height: 100%;
+    }
+
+    .content-right .text-content {
+        gap: 15px;
+    }
+
+    .content-right .text-content h1{
+        font-size: 24px;
+        width: 100%;
+    }
+    .content-right .text-content p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1rem;
+        width: 100%;
+    }
+
+    .content-right .text-content button {
+        width: 100px;
+        height: 35px;
+    }
+
+    .contents .social-media {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #container {
+        background-image: url('../images/bg-mobile.svg');
+        background-position: top left;
+        background-size: contain;
+        height: 100%;
+    }
+
+    #container .hero-logo img {
+        width: 150px;
+    }
+
+    .contents {
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .content-left,
+    .content-right {
+        width: 90%;
+    }
+
+    .content-right .text-content {
+        margin: 0;
+        align-items: center;
+    }
+
+    .content-right .text-content h1{
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .content-right .text-content p {
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    .content-right .text-content button {
+        width: 200px;
+        height: 40px;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .content-right .wrapper .social-media ul{
+        width: 100%;
+        justify-content: center;
+    }
+}

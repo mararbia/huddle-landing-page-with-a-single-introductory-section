@@ -1,0 +1,120 @@
+body {
+    min-height: 100vh;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--violet);
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom 20% left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#container .hero-logo {
+    width: 90%;
+}
+
+#container .hero-logo img {
+    width: 15%;
+    width: 200px;
+    height: 50px;
+}
+
+.contents {
+    width: 90%;
+    display: flex;
+}
+
+.content-left {
+    width: 50%;
+}
+
+.content-left .image-mockup img {
+    width: 100%;
+}
+
+.content-right {
+    width: 50%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-right .wrapper {
+    height: 100%;
+    padding: 20px;
+}
+
+.content-right .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin: 50px 0 0 30px;
+}
+
+.content-right .text-content h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content-right .text-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.content-right .text-content button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #FFF;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px #000;
+    color: var(--violet);
+}
+
+.content-right .text-content button:hover {
+    background-color: var(--soft-magenta);
+    color: #FFF;
+}
+
+.content-right .wrapper .social-media {
+    width: 100%;
+}
+
+.content-right .wrapper .social-media ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 20px;
+}
+
+.content-right .wrapper .social-media ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF; 
+}
+
+.content-right .wrapper .social-media ul li:hover {
+    color: var(--soft-magenta);
+    border: 1px solid var(--soft-magenta);
+}
